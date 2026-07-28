@@ -14,13 +14,13 @@ A 3D collision extension for TurboWarp/Scratch. Works best with Simple 3D, but c
 
 1. Import the extension into TurboWarp
 2. Create a list containing triangle vertices:
-  x1 y1 z1
-  x2 y2 z2
-  x3 y3 z3
+- x1 y1 z1
+- x2 y2 z2
+- x3 y3 z3
 3. Add the mesh:
-  add trimesh from list [mesh]
+- add trimesh from list [mesh]
 4. Test collision:
-  trimesh collision
+- trimesh collision
 
 (Triangle normals depend on vertex order.)
 
