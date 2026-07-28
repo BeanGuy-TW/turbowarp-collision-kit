@@ -389,7 +389,7 @@ class CollisionKit {
             const minZ = Math.min(az,bz,cz);
             const maxZ = Math.max(az,bz,cz);
 
-            // Precalculate triangle constant
+            // Precalculate triangle constants
             const ux = bx - ax;
             const uy = by - ay;
             const uz = bz - az;
