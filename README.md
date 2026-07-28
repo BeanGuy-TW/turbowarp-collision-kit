@@ -1,6 +1,6 @@
 # Collision Kit
 
-A 3D collision extension for TurboWarp/Scratch.
+A 3D collision extension for TurboWarp/Scratch. Works best with Simple 3D, but can be used with any rendering engine as it's completely separated from rendering.
 
 ## Features
 
