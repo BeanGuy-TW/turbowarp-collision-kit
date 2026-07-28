@@ -190,6 +190,18 @@ class CollisionKit {
                     text: "reset all",
                 },
                 {
+                    opcode: "addTri",
+                    blockType: Scratch.BlockType.COMMAND,
+                    text: "add trimesh from list [LIST]",
+
+                    arguments: {
+                        LIST: {
+                            type: Scratch.ArgumentType.STRING,
+                            menu: "lists"
+                        }
+                    }
+                },
+                {
                     opcode: "isCollidingTri",
                     blockType: Scratch.BlockType.BOOLEAN,
                     text: "trimesh collision | point x:[X] y:[Y] z:[Z] radius:[R]",
@@ -259,18 +271,6 @@ class CollisionKit {
                             type: Scratch.ArgumentType.NUMBER,
                             defaultValue: 1
                         },
-                    }
-                },
-                {
-                    opcode: "addTri",
-                    blockType: Scratch.BlockType.COMMAND,
-                    text: "add trimesh from list [LIST]",
-
-                    arguments: {
-                        LIST: {
-                            type: Scratch.ArgumentType.STRING,
-                            menu: "lists"
-                        }
                     }
                 },
                 {
