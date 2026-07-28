@@ -1,3 +1,8 @@
+// Collision Kit
+// Version: 0.1.0
+// Author: BeanGuy-TW
+// License: MIT
+
 //========================
 // Helper functions
 //========================
