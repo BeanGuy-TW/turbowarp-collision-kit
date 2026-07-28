@@ -22,6 +22,7 @@ A 3D collision extension for TurboWarp/Scratch.
 4. Test collision:
   trimesh collision
 
+(Triangle normals depend on vertex order.)
 
 ## Performance
 
