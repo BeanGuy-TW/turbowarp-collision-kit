@@ -2,6 +2,10 @@
 
 A 3D collision extension for TurboWarp/Scratch. Works best with Simple 3D, but can be used with any rendering engine as it's completely separated from rendering.
 
+## ⚠️ !!! Disclaimer !!! ⚠️
+
+This extension is in early development! Expect bugs, inconsistencies, and unfinished examples. I will release an official documentation for the extension soon, and make better examples...
+
 ## Features
 
 - Sphere vs Triangle Mesh collision
